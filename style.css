@@ -129,18 +129,11 @@ img {
     body {
         font-size: 30px;
     }
-    h3 {
+    h1 {
         margin: 0;
-    }
-    .row {
-        margin-top: 0;
     }
     #lezioni>.row {
         background-color: #F2F2CD;
-    }
-    #lezioni .row>.left,
-    #lezioni .row>.right {
-        width: 100%;
     }
     /* Sezione Steps */
     #steps {
@@ -150,8 +143,12 @@ img {
     #steps .row>.central,
     #steps .row>.right {
         width: 100%;
+        padding-bottom: 2%;
     }
     /* Sezione why */
+    #why>.row>h1 {
+        padding-top: 3%;
+    }
     #why>.row {
         background-color: #F2F2CD;
     }
