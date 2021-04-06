@@ -89,12 +89,14 @@ img {
 @media screen and (max-width: 1000px) {
     /* Sezione Lezioni */
     body {
+        margin: 0;
         font-size: 26px;
     }
     h3 {
         margin: 0;
     }
     .row {
+        width: auto;
         margin-top: 0;
     }
     #lezioni .row>.left,
